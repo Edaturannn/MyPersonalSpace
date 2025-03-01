@@ -1,0 +1,14 @@
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/bin/Release/net7.0/MyPersonalSpace.Entities.deps.json
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/bin/Release/net7.0/MyPersonalSpace.Entities.runtimeconfig.json
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/bin/Release/net7.0/MyPersonalSpace.Entities.dll
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/bin/Release/net7.0/MyPersonalSpace.Entities.pdb
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.csproj.AssemblyReference.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.AssemblyInfoInputs.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.AssemblyInfo.cs
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.csproj.CoreCompileInputs.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.dll
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/refint/MyPersonalSpace.Entities.dll
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.pdb
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/MyPersonalSpace.Entities.genruntimeconfig.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/Release/net7.0/ref/MyPersonalSpace.Entities.dll

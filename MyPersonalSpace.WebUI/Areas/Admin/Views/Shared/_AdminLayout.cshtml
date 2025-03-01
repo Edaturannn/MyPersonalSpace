@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    @await Component.InvokeAsync("_HeadViewComponentAdminLayout")
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    @await Component.InvokeAsync("_HeaderViewComponentAdminLayout")
+    <!-- ======= Sidebar ======= -->
+    @await Component.InvokeAsync("_SidebarViewComponentAdminLayout")
+    <!-- End Sidebar-->
+
+    <main id="main" class="main">
+        <div class="pagetitle">
+
+        </div><!-- End Page Title -->
+        @RenderBody()
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    @await Component.InvokeAsync("_FooterViewComponentAdminLayout")
+    <!-- End Footer -->
+
+    @await Component.InvokeAsync("_ScriptViewComponentAdminLayout")
+</body>
+</html>

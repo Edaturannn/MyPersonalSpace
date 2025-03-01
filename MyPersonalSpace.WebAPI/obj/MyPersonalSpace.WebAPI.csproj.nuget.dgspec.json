@@ -1,0 +1,730 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebAPI/MyPersonalSpace.WebAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/MyPersonalSpace.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/MyPersonalSpace.Business.csproj",
+        "projectName": "MyPersonalSpace.Business",
+        "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/MyPersonalSpace.Business.csproj",
+        "packagesPath": "/Users/eda/.nuget/packages/",
+        "outputPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "BCrypt.Net": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj",
+        "projectName": "MyPersonalSpace.DataAccess",
+        "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj",
+        "packagesPath": "/Users/eda/.nuget/packages/",
+        "outputPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj",
+        "projectName": "MyPersonalSpace.Dtos",
+        "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj",
+        "packagesPath": "/Users/eda/.nuget/packages/",
+        "outputPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj",
+        "projectName": "MyPersonalSpace.Entities",
+        "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj",
+        "packagesPath": "/Users/eda/.nuget/packages/",
+        "outputPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebAPI/MyPersonalSpace.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebAPI/MyPersonalSpace.WebAPI.csproj",
+        "projectName": "MyPersonalSpace.WebAPI",
+        "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebAPI/MyPersonalSpace.WebAPI.csproj",
+        "packagesPath": "/Users/eda/.nuget/packages/",
+        "outputPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.315/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/MyPersonalSpace.Business.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/MyPersonalSpace.Business.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/MyPersonalSpace.WebUI.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/MyPersonalSpace.WebUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/MyPersonalSpace.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/MyPersonalSpace.WebUI.csproj",
+        "projectName": "MyPersonalSpace.WebUI",
+        "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/MyPersonalSpace.WebUI.csproj",
+        "packagesPath": "/Users/eda/.nuget/packages/",
+        "outputPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.315/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/MyPersonalSpace.Business.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Business/MyPersonalSpace.Business.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.DataAccess/MyPersonalSpace.DataAccess.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/MyPersonalSpace.Dtos.csproj"
+              },
+              "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj": {
+                "projectPath": "/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Entities/MyPersonalSpace.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[9.0.876, )"
+            },
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

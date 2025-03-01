@@ -1,0 +1,17 @@
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/bin/Release/net7.0/MyPersonalSpace.Dtos.deps.json
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/bin/Release/net7.0/MyPersonalSpace.Dtos.runtimeconfig.json
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/bin/Release/net7.0/MyPersonalSpace.Dtos.dll
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/bin/Release/net7.0/MyPersonalSpace.Dtos.pdb
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/bin/Release/net7.0/MyPersonalSpace.Entities.dll
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/bin/Release/net7.0/MyPersonalSpace.Entities.pdb
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.csproj.AssemblyReference.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.AssemblyInfoInputs.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.AssemblyInfo.cs
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.csproj.CoreCompileInputs.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPerson.DF61DEE7.Up2Date
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.dll
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/refint/MyPersonalSpace.Dtos.dll
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.pdb
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/MyPersonalSpace.Dtos.genruntimeconfig.cache
+/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.Dtos/obj/Release/net7.0/ref/MyPersonalSpace.Dtos.dll

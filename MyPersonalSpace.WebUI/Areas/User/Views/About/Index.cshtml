@@ -1,0 +1,25 @@
+﻿@model List<ResultAboutDto>
+@foreach (var item in Model)
+    {
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <img src="~/UsersTheme/assets/images/@item.Profile" class="rounded-circle mb-3" alt="Profil Fotoğrafı" style="height:100px; width:100px;">
+                    <h2 class="card-title">Eda</h2>
+                    <p class="card-text">@item.AboutMe</p>
+                    <p class="card-text">@item.Content</p>
+                    <div>
+                        <a href="@item.Linkedin" class="btn btn-primary me-2">LinkedIn</a>
+                        <a href="@item.Github" class="btn btn-dark">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
+    }

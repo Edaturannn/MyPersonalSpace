@@ -1,0 +1,47 @@
+﻿@model List<ResultAboutDto>
+@foreach (var item in Model)
+    {
+<header class="header text-center">
+    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="/User/Home/Index">Eda'nın Blog</a></h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navigation" class="collapse navbar-collapse flex-column">
+            <div class="profile-section pt-3 pt-lg-0">
+                <img class="profile-image mb-3 rounded-circle mx-auto" src="~/UsersTheme/assets/images/@item.Profile" alt="image">
+
+                
+                <ul class="social-list list-inline py-3 mx-auto">
+                    
+                    <li class="list-inline-item"><a href="@item.Linkedin"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a href="@item.Github"><i class="fab fa-github-alt fa-fw"></i></a></li>
+  
+                </ul><!--//social-list-->
+                <hr>
+            </div><!--//profile-section-->
+
+            <ul class="navbar-nav flex-column text-start">
+                <li class="nav-item">
+                    <a class="nav-link" href="/User/Home/Index"><i class="fas fa-home fa-fw me-2"></i>Anasayfa <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/User/Home/Index"><i class="fas fa-bookmark fa-fw me-2"></i>Bloglarım</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/User/About/Index"><i class="fas fa-user fa-fw me-2"></i>Ben Kimim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/User/Contact/Index"><i class="fas fa-envelope fa-fw me-2"></i>İletişim İçin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Logout/Index"><i class="fas fa-sign-out-alt fa-fw me-2"></i>Çıkış Yap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    }

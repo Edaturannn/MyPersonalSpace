@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyPersonalSpace.WebUI
+build_property.RootNamespace = MyPersonalSpace.WebUI
+build_property.ProjectDir = /Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/About/AddAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWJvdXQvQWRkQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tbWVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Post/AddPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdC9BZGRQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Shared/Components/_FooterViewComponentAdminLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlclZpZXdDb21wb25lbnRBZG1pbkxheW91dC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Shared/Components/_HeaderViewComponentAdminLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0hlYWRlclZpZXdDb21wb25lbnRBZG1pbkxheW91dC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Shared/Components/_HeadViewComponentAdminLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0hlYWRWaWV3Q29tcG9uZW50QWRtaW5MYXlvdXQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Shared/Components/_ScriptViewComponentAdminLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NjcmlwdFZpZXdDb21wb25lbnRBZG1pbkxheW91dC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Shared/Components/_SidebarViewComponentAdminLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NpZGViYXJWaWV3Q29tcG9uZW50QWRtaW5MYXlvdXQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Shared/Components/_Statistical1ViewComponentAdminLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1N0YXRpc3RpY2FsMVZpZXdDb21wb25lbnRBZG1pbkxheW91dC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9BYm91dC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Comment/AddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9Db21tZW50L0FkZENvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9Db250YWN0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9Ib21lL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Home/PostDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9Ib21lL1Bvc3REZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Shared/Components/FooterViewComponentLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9TaGFyZWQvQ29tcG9uZW50cy9Gb290ZXJWaWV3Q29tcG9uZW50TGF5b3V0L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Shared/Components/HeaderViewComponentLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9TaGFyZWQvQ29tcG9uZW50cy9IZWFkZXJWaWV3Q29tcG9uZW50TGF5b3V0L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Shared/Components/HeadViewComponentLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9TaGFyZWQvQ29tcG9uZW50cy9IZWFkVmlld0NvbXBvbmVudExheW91dC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Shared/Components/ScriptViewComponentLayout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9TaGFyZWQvQ29tcG9uZW50cy9TY3JpcHRWaWV3Q29tcG9uZW50TGF5b3V0L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9TaGFyZWQvX1VzZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Areas/User/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9WaWV3cy9fVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/Shared/_LoginRegisterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblJlZ2lzdGVyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/MyPersonalSpace/MyPersonalSpace/MyPersonalSpace.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

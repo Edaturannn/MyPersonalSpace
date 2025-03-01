@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    @await Component.InvokeAsync("HeadViewComponentLayout")
+</head>
+<body>
+    @await Component.InvokeAsync("HeaderViewComponentLayout")
+    <div class="main-wrapper">
+        @RenderBody()
+        @await Component.InvokeAsync("FooterViewComponentLayout")
+    </div>
+    @await Component.InvokeAsync("ScriptViewComponentLayout")
+</body>
+</html>
+
