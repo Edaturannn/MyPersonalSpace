@@ -90,6 +90,7 @@ Bu proje için, SAGA üzerinden Linux tabanlı bir sanal sunucu satın alarak su
 
 <img width="1437" alt="Ekran Resmi 2025-03-01 02 57 45" src="https://github.com/user-attachments/assets/573b3cb0-73db-480c-9861-285d8ced1638" />
 
+<img width="1431" alt="Ekran Resmi 2025-03-01 20 43 35" src="https://github.com/user-attachments/assets/2739dba6-ec90-4d77-82a0-8e1bbd4c5cb0" />
 
 
 
