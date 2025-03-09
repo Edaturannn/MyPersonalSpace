@@ -1,0 +1,74 @@
+﻿@model LoginDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-primary {
+            background-color: #6a11cb;
+            border-color: #6a11cb;
+        }
+
+            .btn-primary:hover {
+                background-color: #2575fc;
+                border-color: #2575fc;
+            }
+
+        a {
+            color: #6a11cb;
+        }
+
+            a:hover {
+                color: #2575fc;
+            }
+    </style>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center vh-100">
+        <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
+            <h3 class="text-center mb-4" style="color: #6a11cb;">Giriş Yap</h3>
+            <form method="post" asp-controller="Login" asp-action="Index">
+                <div class="form-group">
+                    <label for="username" class="form-label">Kullanıcı Adı:</label>
+                    <input type="text" id="username" name="Username" required class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Şifre:</label>
+                    <input type="password" id="password" name="Password" required class="form-control" />
+                </div>
+                <div class="form-group">
+                    <p class="text-center">Şifreyi Unuttum... <a href="/Account/ForgotPassword">Tıkla!!!</a></p>
+                </div>
+                <div class="col-md-12 text-center ">
+                    <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Giriş</button>
+                </div>
+
+
+                <div class="form-group">
+                    <p class="text-center">Hesap Oluştur!!! <a href="/Register/Index" id="signup">Giriş Yap</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

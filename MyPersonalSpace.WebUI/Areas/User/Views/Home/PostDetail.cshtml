@@ -1,0 +1,59 @@
+﻿@model PostWithCommentsViewModel
+@{
+    var sanitizer = new HtmlSanitizer();
+    sanitizer.AllowedTags.Remove("br");
+}
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+    <article class="blog-post px-3 py-5 p-md-5">
+        <div class="container single-col-max-width">
+            <header class="blog-post-header">
+                <h2 class="title mb-2">@Model.Post.Title</h2>
+                <div class="meta mb-3"><span class="date">@Model.Post.CreatedAt</span><span class="time">En az 5 dakika</span><span class="comment"><a class="text-link" href="#"></a></span></div>
+            </header>
+
+            <div class="blog-post-body">
+                <figure class="blog-banner">
+                    <a href="https://made4dev.com"><img class="img-fluid" src="http://localhost:9005/blog/@Model.Post.Img" alt="image"></a>
+                </figure>
+                <p>@Html.Raw(Model.Post.Content)</p>
+
+        
+                <a class="btn btn-primary w-100" href="/User/Comment/AddComment/@Model.Post.PostId">Yorumu Yaz</a>
+                <div class="blog-comments-section">
+                    <div id="disqus_thread"></div>
+                </div>
+
+            </div><!--//container-->
+        </div>
+
+        <div class="container mt-4">
+            <h2 class="mb-4">Yorumlar</h2>
+
+
+
+            <ul class="list-group">
+                @foreach (var item in Model.Comments)
+                {
+
+
+                    <li class="list-group-item">
+                        <div class="d-flex justify-content-between">
+                            <strong>@item.Title</strong>
+
+                        </div>
+                        <p class="mb-0">@Html.Raw(sanitizer.Sanitize(item.Content))</p>
+                    </li>
+                }
+            </ul>
+
+
+            <a href="/User/Home/Index" class="btn btn-secondary mt-3">Geri Dön</a>
+        </div>
+
+    </article>
+
+
+
+
+

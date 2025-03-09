@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "_AdminLayout";
+    var user = ViewBag.UserName as User;
+}
+<h1><b>Hoş Geldiniz: </b> @user.Username</h1>
+<section class="section dashboard">
+    @await Component.InvokeAsync("_Statistical1ViewComponentAdminLayout")
+</section>
+
+
+
+
+
