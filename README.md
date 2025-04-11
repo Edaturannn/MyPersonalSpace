@@ -20,6 +20,8 @@
 
 - API Consume
 
+- Argon2
+
 - Json Web Token
 
 - Login
