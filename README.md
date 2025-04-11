@@ -1,44 +1,44 @@
 <h1>MyPersonalSpace</h1>
 
-— Auto Mapper
+- Auto Mapper
 
-— Asp.Net Core API
+- Asp.Net Core API
 
-— Swagger
+- Swagger
 
-— Postman
+- Postman
 
-— Docker
+- Docker
 
-— PostgreSQL
+- PostgreSQL
 
-— SMTP Mail Service
+- SMTP Mail Service
 
-— MinIO S3 Cloud Storage servisini
+- MinIO S3 Cloud Storage servisini
 
-— DBeaver
+- DBeaver
 
-— API Consume
+- API Consume
 
-— Json Web Token
+- Json Web Token
 
-— Login
+- Login
 
-— Register
+- Register
 
-— Asp.Net Core 7.0
+- Asp.Net Core 7.0
 
-— Fluent Validation
+- Fluent Validation
 
-— N Tier Architecture
+- N Tier Architecture
 
-— Dto Layer
+- Dto Layer
 
-— MVC
+- MVC
 
-— Entity Framework Core
+- Entity Framework Core
 
-— Repository Design Pattern
+- Repository Design Pattern
 
 Bu projeyi ASP.NET 7.0, Entity Framework, Katmanlı Mimari, Code-First ve REST API kullanarak geliştirdim. Uygulamanın esnekliğini ve ölçeklenebilirliğini artırmak amacıyla Docker teknolojisinden faydalandım. Veri tabanını bir konteyner içerisinde çalıştırmak için PostgreSQL’in resmi Docker imajını kullanarak, uygulamanın farklı ortamlarda sorunsuz çalışmasını sağladım ve veri tabanı yönetimini daha verimli ve güvenli hale getirdim.
 
