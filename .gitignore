@@ -1,3 +1,8 @@
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+!appsettings.json
+
 # Created by https://www.toptal.com/developers/gitignore/api/dotnetcore,visualstudio,visualstudiocode,aspnetcore
 # Edit at https://www.toptal.com/developers/gitignore?templates=dotnetcore,visualstudio,visualstudiocode,aspnetcore
 
